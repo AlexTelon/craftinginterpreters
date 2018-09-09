@@ -51,7 +51,9 @@ namespace LoxInterpreter
 
         private static void Run(string source)
         {
-            var tokens = source.Split(" ");
+            Scanner scanner = new Scanner(source);
+            List<Token> tokens = scanner.ScanTokens();
+
             foreach (var token in tokens)
             {
                 Console.WriteLine(token);
