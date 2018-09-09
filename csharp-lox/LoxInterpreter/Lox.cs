@@ -60,7 +60,7 @@ namespace LoxInterpreter
             }
         }
 
-        private static void Error(int line, string message)
+        internal static void Error(int line, string message)
         {
             Report(line, "", message);
         }

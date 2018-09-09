@@ -8,14 +8,14 @@ namespace LoxInterpreter
     /// A token is what a scanner translate things like "var" and ";" into.
     /// It contains the raw string (lexeme) along with other things we learned while reading
     /// </summary>
-    class Token
+    internal class Token
     {
         readonly TokenType type;
         readonly string lexeme;
         readonly Object literal;
         readonly int line;
 
-        Token (TokenType type, string lexeme, Object literal, int line)
+        internal Token (TokenType type, string lexeme, Object literal, int line)
         {
             this.type = type;
             this.lexeme = lexeme;
