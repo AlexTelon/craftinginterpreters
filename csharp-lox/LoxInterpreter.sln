@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoxInterpreter", "LoxInterpreter\LoxInterpreter.csproj", "{C3D3EA26-C8E6-4114-ACCC-F0C44E507AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3D3EA26-C8E6-4114-ACCC-F0C44E507AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D3EA26-C8E6-4114-ACCC-F0C44E507AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D3EA26-C8E6-4114-ACCC-F0C44E507AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D3EA26-C8E6-4114-ACCC-F0C44E507AED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0CA7451-6EC4-4E29-89BD-8DCDF070AB0C}
+	EndGlobalSection
+EndGlobal
